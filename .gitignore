@@ -1,10 +1,6 @@
 
 .vs/
 
-ExcavatorController/bin/
-
-SelfDestruct/bin/
-
-SelfDestruct/obj/
-
-ExcavatorController/obj/
+*bin/
+*obj/
+*.idea/

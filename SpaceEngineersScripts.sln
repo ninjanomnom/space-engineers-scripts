@@ -9,9 +9,22 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CommonUtilities", "CommonUt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfDestruct", "SelfDestruct\SelfDestruct.csproj", "{0189A82C-6F45-4B99-A36E-99D8241D00B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DroneManufactury", "DroneManufactury\DroneManufactury.csproj", "{1AAF6017-4B8A-4F04-ABA3-18DCCAB97017}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnitchBug", "SnitchBug\SnitchBug.csproj", "{B3BDD70E-8530-45FC-968F-526CB69930AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameProtector", "NameProtector\NameProtector.csproj", "{797A66EC-AEFE-4C4D-930F-40C689CCCA1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Git", "Git", "{91E6E942-F6F0-4188-AC9C-F63F1F060388}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		CommonUtilities\CommonUtilities.projitems*{0189a82c-6f45-4b99-a36e-99d8241d00b4}*SharedItemsImports = 4
+		CommonUtilities\CommonUtilities.projitems*{797a66ec-aefe-4c4d-930f-40c689ccca1d}*SharedItemsImports = 4
+		CommonUtilities\CommonUtilities.projitems*{b3bdd70e-8530-45fc-968f-526cb69930aa}*SharedItemsImports = 4
 		CommonUtilities\CommonUtilities.projitems*{b90f62e7-0e7d-4597-905d-5ba4f997641f}*SharedItemsImports = 4
 		CommonUtilities\CommonUtilities.projitems*{f5e987a1-f244-40a6-9757-c5ffe4a4ad12}*SharedItemsImports = 13
 	EndGlobalSection
@@ -23,6 +36,12 @@ Global
 		{B90F62E7-0E7D-4597-905D-5BA4F997641F}.Debug|x64.Build.0 = Debug|x64
 		{0189A82C-6F45-4B99-A36E-99D8241D00B4}.Debug|x64.ActiveCfg = Debug|x64
 		{0189A82C-6F45-4B99-A36E-99D8241D00B4}.Debug|x64.Build.0 = Debug|x64
+		{1AAF6017-4B8A-4F04-ABA3-18DCCAB97017}.Debug|x64.ActiveCfg = Debug|x64
+		{1AAF6017-4B8A-4F04-ABA3-18DCCAB97017}.Debug|x64.Build.0 = Debug|x64
+		{B3BDD70E-8530-45FC-968F-526CB69930AA}.Debug|x64.ActiveCfg = Debug|x64
+		{B3BDD70E-8530-45FC-968F-526CB69930AA}.Debug|x64.Build.0 = Debug|x64
+		{797A66EC-AEFE-4C4D-930F-40C689CCCA1D}.Debug|x64.ActiveCfg = Debug|x64
+		{797A66EC-AEFE-4C4D-930F-40C689CCCA1D}.Debug|x64.Build.0 = Debug|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

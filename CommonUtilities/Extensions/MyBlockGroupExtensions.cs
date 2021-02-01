@@ -16,5 +16,11 @@ namespace CommonUtilities.Extensions
                 yield return thing as T;
             }
         }
+
+        public static IEnumerable<IMyTerminalBlock> GetBlocks(this IMyBlockGroup src) {
+            var output = new List<IMyTerminalBlock>();
+            src.GetBlocks(output);
+            return output;
+        }
     }
 }

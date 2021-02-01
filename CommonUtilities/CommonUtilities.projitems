@@ -11,5 +11,16 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Extensions\GridTerminalSystemExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Extensions\MyBlockGroupExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\MyIntergridCommunicationSystemExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FeatureModules\ConfigHolder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FeatureModules\EchoManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\Job.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\LateLoad.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FeatureModules\MasterController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ModularScripts\ISaver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ModularScripts\IScriptCore.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ModularScripts\IScriptTemplate.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ModularScripts\Ticker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ModularScripts\Program.cs" />
   </ItemGroup>
 </Project>

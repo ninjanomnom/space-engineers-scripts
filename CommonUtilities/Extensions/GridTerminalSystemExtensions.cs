@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using Sandbox.Game.GameSystems;
 using Sandbox.ModAPI.Ingame;
@@ -37,6 +38,16 @@ namespace CommonUtilities.Extensions
             }
 
             return null;
+        }
+
+        public static IEnumerable<IMyBlockGroup> GetGroupsForBlock(this IMyGridTerminalSystem src, IMyTerminalBlock searchBlock) {
+            List<IMyBlockGroup> groups = new List<IMyBlockGroup>();
+            src.GetBlockGroups(groups);
+            foreach(var group in groups) {
+                if (group.GetBlocks().Contains(searchBlock)) {
+                    yield return group;
+                }
+            }
         }
     }
 }
